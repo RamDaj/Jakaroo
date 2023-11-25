@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://mvr7xoaqwt7i"]
+
+[ext_resource type="Script" path="res://Space.gd" id="1_3carq"]
+
+[node name="Space" type="CSGCylinder3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.3277, -0.0261383, 36.7927)
+radius = 2.0
+sides = 32
+script = ExtResource("1_3carq")
